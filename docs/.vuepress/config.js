@@ -1,7 +1,6 @@
 module.exports = {
-  title: "TypeScript4 文档",
-  description: "TypeScript4 最新官方文档翻译",
-  theme: "reco",
+  title: "小石头的博客",
+  description: "兰生幽谷，不以无人而不芳",
   locales: {
     "/": {
       lang: "zh-CN",
@@ -10,30 +9,12 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
-      {
-        text: "冴羽的 JavaScript 博客",
-        items: [
-          { text: "Github", link: "https://github.com/mqyqingfeng" },
-          {
-            text: "掘金",
-            link: "https://juejin.cn/user/712139234359182/posts",
-          },
-        ],
-      },
+      { text: "计算机基础", link: "/computerbase/" },
+      { text: "javaScript 进阶", link: "/javascript/" },
+      { text: "TypeScript", link: "/typeScript/" },
     ],
-    sidebar: [
-      {
-        title: "欢迎学习",
-        path: "/",
-        collapsable: false, // 不折叠
-        children: [{ title: "学前必读", path: "/" }],
-      },
-      {
-        title: "基础学习",
-        path: "/handbook/ConditionalTypes",
-        collapsable: false, // 不折叠
-        children: [{ title: "泛型", path: "/handbook/Generics" }],
-      },
-    ],
+    sidebar: {
+      "/javascript/": ["", "one"],
+    },
   },
 };
