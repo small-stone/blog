@@ -11,10 +11,11 @@ module.exports = {
       { text: "首页", link: "/" },
       { text: "计算机基础", link: "/computerbase/" },
       { text: "javaScript 进阶", link: "/javascript/" },
-      { text: "TypeScript", link: "/typeScript/" },
+      { text: "TypeScript", link: "/typescript/" },
     ],
     sidebar: {
       "/javascript/": ["", "one"],
+      "/typescript/": ["", "type"],
     },
   },
 };

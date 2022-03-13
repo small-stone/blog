@@ -1,0 +1,1 @@
+(()=>{"use strict";let e="hello typescript";console.log("hello: ",e),document.getElementById("app").innerHTML=e})();

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Focusplan</string>
+	<key>Background Color</key>
+	<string>#FAF9FFFF</string>
+	<key>Branch</key>
+	<dict>
+		<key>Auto Line Width</key>
+		<true/>
+		<key>Line Color</key>
+		<string>#000000FF</string>
+		<key>Line Type</key>
+		<string>solid</string>
+		<key>Line Width</key>
+		<real>5</real>
+		<key>Type</key>
+		<string>rounded</string>
+	</dict>
+	<key>Floating Topic</key>
+	<dict>
+		<key>Background Color</key>
+		<string>#474453FF</string>
+		<key>Border Color</key>
+		<string>#474453FF</string>
+		<key>Border Type</key>
+		<string>solid</string>
+		<key>Border Width</key>
+		<real>5</real>
+		<key>Content Padding</key>
+		<real>14</real>
+		<key>Font Name</key>
+		<string>Helvetica</string>
+		<key>Font Size</key>
+		<real>26</real>
+		<key>Horizontal Spacing</key>
+		<real>40</real>
+		<key>Image Tint Color</key>
+		<string>#FAF9FFFF</string>
+		<key>Max Layout Width</key>
+		<real>300</real>
+		<key>Mirror Children</key>
+		<true/>
+		<key>Shape Type</key>
+		<string>rounded</string>
+		<key>Text Alignment</key>
+		<string>center</string>
+		<key>Text Color</key>
+		<string>#FAF9FFFF</string>
+		<key>Text Strikethrough</key>
+		<false/>
+		<key>Text Underline</key>
+		<false/>
+		<key>Vertical Spacing</key>
+		<real>0.0</real>
+	</dict>
+	<key>Identifier</key>
+	<string>64E055E0-EE30-45B3-99B8-CDA9C8267092</string>
+	<key>Label</key>
+	<string>Vignette</string>
+	<key>Relationship</key>
+	<dict/>
+	<key>Template Colors</key>
+	<array>
+		<string>#73BEF8FF</string>
+		<string>#81D552FF</string>
+		<string>#EEBC40FF</string>
+		<string>#DD68A5FF</string>
+		<string>#3174B4FF</string>
+		<string>#4AA69CFF</string>
+		<string>#EC6D56FF</string>
+	</array>
+	<key>Topic</key>
+	<dict>
+		<key>Background Color</key>
+		<string>#FAF9FFFF</string>
+		<key>Border Color</key>
+		<string>#FAF9FFFF</string>
+		<key>Border Type</key>
+		<string>solid</string>
+		<key>Border Width</key>
+		<real>5</real>
+		<key>Content Padding</key>
+		<real>14</real>
+		<key>Font Name</key>
+		<string>Helvetica</string>
+		<key>Font Size</key>
+		<real>22</real>
+		<key>Horizontal Spacing</key>
+		<real>30</real>
+		<key>Image Tint Color</key>
+		<string>#FEFEFEFF</string>
+		<key>Max Layout Width</key>
+		<real>300</real>
+		<key>Mirror Children</key>
+		<true/>
+		<key>Shape Type</key>
+		<string>line</string>
+		<key>Text Alignment</key>
+		<string>left</string>
+		<key>Text Color</key>
+		<string>#33323DFF</string>
+		<key>Text Strikethrough</key>
+		<false/>
+		<key>Text Underline</key>
+		<false/>
+		<key>Vertical Spacing</key>
+		<real>0.0</real>
+	</dict>
+	<key>Version</key>
+	<string>1.6</string>
+</dict>
+</plist>
