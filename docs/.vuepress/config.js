@@ -15,7 +15,7 @@ module.exports = {
     ],
     sidebar: {
       "/javascript/": ["", "one"],
-      "/typescript/": ["", "type"],
+      "/typescript/": ["", "type", "interface"],
     },
   },
 };
