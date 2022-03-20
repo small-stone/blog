@@ -101,3 +101,36 @@ const lable: LabelValue = {
 ```
 
 确保可选属性和确定属性是任意属性的子集即可。
+
+## 继承
+
+interface 可以用过通过 extends 来继承
+
+```ts
+interface LabelValue {
+  name: string;
+}
+
+interface LabelItem extends LableValue {
+  value: number;
+}
+```
+
+## 类型别名
+
+接口的特点和类型别名有点像，都可以用变量的方式定义类型
+
+```ts
+type LabelValue = {
+  name: string;
+  value?: number;
+};
+```
+
+可以使用类型别名给任意类型一个名字，举个例子，命名一个联合类型：
+
+```ts
+type ID = number | string;
+```
+
+类型别名和接口非常相似，大部分时候，可以任意选择使用。接口的几乎所有特性都可以在 type 中使用，两者最关键的差别在于类型别名本身无法添加新的属性，而接口是可以扩展的。

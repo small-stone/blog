@@ -3,11 +3,10 @@ console.log('hello: ', hello);
 // @ts-ignore
 document.getElementById('app').innerHTML = hello
 
-interface LabelValue {
+type LabelValue = {
   name: string;
   value?: number;
-  [propName: string]: string | number | undefined;
-}
+};
 
 const lable: LabelValue = {
   name: "下拉框1",

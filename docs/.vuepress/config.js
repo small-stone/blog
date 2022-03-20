@@ -10,11 +10,12 @@ module.exports = {
     nav: [
       { text: "首页", link: "/" },
       { text: "计算机基础", link: "/computerbase/" },
+      { text: "数据结构和算法", link: "/algorithm/" },
       { text: "javaScript 进阶", link: "/javascript/" },
       { text: "TypeScript", link: "/typescript/" },
     ],
     sidebar: {
-      "/javascript/": ["", "one"],
+      "/javascript/": ["", "toPrimitive"],
       "/typescript/": ["", "type", "interface"],
     },
   },
