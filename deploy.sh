@@ -17,3 +17,5 @@ git commit -m 'deploy'
 git push -f git@github.com:small-stone/small-stone.github.io.git master
 
 cd -
+
+echo "done"

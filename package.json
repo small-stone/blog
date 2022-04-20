@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "upload": "sh deploy.sh"
   },
   "dependencies": {
     "vuepress-theme-reco": "^1.6.11"
