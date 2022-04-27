@@ -14,7 +14,7 @@ module.exports = {
       { text: "TypeScript", link: "/typescript/" },
     ],
     sidebar: {
-      "/computerbase/": ["", "one", "net", "tcp", "http"],
+      "/computerbase/": ["", "one", "cpu", "data", "net", "tcp", "http"],
       "/javascript/": ["", "func", "toPrimitive"],
       "/typescript/": ["", "type", "interface"],
     },
